@@ -23,4 +23,7 @@ Pull request кода и отчета расположенный в репози
 
 # Контактная информация
 Ссылка на чат по предмету: https://t.me/+6T4c9wyiyggxMzdi
+
+Cсылка на журнал с баллами и вариантами: https://docs.google.com/spreadsheets/d/1K7crLoN97d4GSQSgBMr1tX7kHINIZvyUbKRjCvgcHkA/edit#gid=1290837777
+
 ФИО преподавателя: Екатерина Машина
