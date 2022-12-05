@@ -100,24 +100,10 @@ public class Main {
     public static void set_up(){
         columns_map.put(0, new String[]{"attack", "defense","dribble", "pass","speed","power","stamina"});
         columns_map.put(1, new String[]{"full_name", "height","weight","position","nationality","shirt_number","birthday","image","id_attribute"});
-        columns_map.put(2, new String[]{"name", "headquarter","management","assets"});
-        columns_map.put(3, new String[]{"time", "video","rating"});
-        columns_map.put(4, new String[]{"name", "region", "level"});
-        columns_map.put(5, new String[]{"name", "coordinate","capacity","owner"});
-        columns_map.put(6, new String[]{"full_name","birthday","nationality"});
-        columns_map.put(7, new String[]{"full_name","birthday","nationality","rating"});
-        columns_map.put(8, new String[]{"full_name","nationality","owner","logo","id_coach","id_stadium"});
-        columns_map.put(9, new String[]{"special_name","time","weather","audience"});
-        columns_map.put(10, new String[]{"id_player","id_team"});
-        columns_map.put(11, new String[]{"club_id","league_id"});
-        columns_map.put(12, new String[]{"club_id","match_id"});
-        columns_map.put(13, new String[]{"id_player","id_team"});
-        columns_map.put(14, new String[]{"id_player","id_team"});
-        columns_map.put(15, new String[]{"id_player","id_team"});
-        columns_map.put(16, new String[]{"id_player","id_team"});
-        columns_map.put(17, new String[]{"id_player","id_team"});
-        columns_map.put(18, new String[]{"id_player","id_team"});
-
+        columns_map.put(2, new String[]{"name", "birthday","id_transport"});
+        columns_map.put(3, new String[]{"content", "time","place"});
+        columns_map.put(4, new String[]{"salvage_id", "part_id"});
+        columns_map.put(5, new String[]{"person_id", "salvage_id"});
         data_map.put("model0",new String[]{
                 "XL-1","XL-2","Xl-3","XL-4","XL-5","CM-1","CM-2","CM-3","CM-4","CM-5","HJ-1","HJ-2",
                 "HJ-3","HJ-4","HJ-5"
