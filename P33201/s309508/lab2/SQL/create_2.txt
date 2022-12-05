@@ -1,0 +1,26 @@
+CREATE TABLE Science (
+  "ID" serial,
+  "Достижение" varchar(45) NOT NULL,
+  PRIMARY KEY ("ID")
+);
+CREATE TABLE Person (
+  "ID" serial,
+  "Имя" varchar(45) NOT NULL,
+  "Пол" varchar(15) NOT NULL,
+  "Понимает" INT NOT NULL,
+  "Наука_id" INT,,
+  PRIMARY KEY ("ID"),
+  FOREIGN KEY ("Наука_id") REFERENCES "Наука" ("ID")
+);
+CREATE TABLE Type_area (
+  "ID" serial,
+  "Тип_зон" VARCHAR(45) NOT NULL,,
+"Наука_ID" INT REFERENCES "Наука"("ID”),
+  PRIMARY KEY ("ID")
+);
+CREATE TABLE Area (
+  "ID" serial,
+  "Название" VARCHAR(45),
+"Тип_зон_ID" INT REFERENCES "Тип_зон"("ID”),
+    PRIMARY KEY ("ID")
+);
