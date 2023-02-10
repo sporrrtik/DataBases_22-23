@@ -1,0 +1,4 @@
+DROP TABLE Science
+DROP TABLE Person
+DROP TABLE Type_area
+DROP TABLE Area
